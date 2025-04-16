@@ -43,7 +43,8 @@ Notebook: Generating_Random_Points.ipynp
 # Step 5:
 "We apply Step 1, Step 2, and Step 3 to the random points in order to extract the same features, replacing 'Deposit_Point.shp' with 'random_points_with_ages.shp'."
 
-# Step 6: Merge the attribute columns of Deposit_Point.shp and random_points_with_ages.shp to enable comparison between deposit and random points.
+# Step 6: 
+Merge the attribute columns of Deposit_Point.shp and random_points_with_ages.shp to enable comparison between deposit and random points.
 Output: deposits_VS_random.csv
 
 # Step 7: 

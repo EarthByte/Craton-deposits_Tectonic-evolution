@@ -3,7 +3,7 @@ How Subduction Evolution and Tectonic Stability Drive Sediment-Hosted Mineraliza
 
 [![DOI](https://zenodo.org/badge/947658549.svg)](https://doi.org/10.5281/zenodo.15015718)
 
-Step 1:
+# Step 1:
 Notebook_1: 01_CalculateSpatialRelationships.ipynp
 
   ** Calculate Spatial Relationships **  
@@ -13,10 +13,10 @@ Notebook_1: 01_CalculateSpatialRelationships.ipynp
   Inputs: Craton_Line.shp, Deposit_Point.shp
   Outputs: merged_segmented_craton.shp (line 2), and Deposits_SpatialRelationships.shp
 
-Step 2:
+# Step 2:
 Notebook_2: 02_Segmented_Craton_v3.ipynp
 
-  # Framework for Interrogating Craton Boundary Segments, Deposits, and Plate Tectonic Parameters Over Time (1800 Ma) Using Mantle Frame Rotation Files
+  Framework for Interrogating Craton Boundary Segments, Deposits, and Plate Tectonic Parameters Over Time (1800 Ma) Using Mantle Frame Rotation Files
    
   This notebook enables users to extract plate tectonic features on a global scale. It consists of three main sections.
   In the first section, we extract features at the exact formation time of deposit datasets, followed by the preparation and visualization of histograms and rose diagrams considering the number of deposits and total metal content.
@@ -27,26 +27,26 @@ Notebook_2: 02_Segmented_Craton_v3.ipynp
   Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Deposits_SpatialRelationships.shp, merged_segmented_craton.shp
   Outputs: segmented_craton_features.shp
 
-Step 3:
+# Step 3:
 Notebook_3: 03_Subduction_Segment_Length.ipynb
 
   Calculating Length of Subduction Segments
   Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Deposits_SpatialRelationships.shp, merged_segmented_craton.shp
   Outputs: segmented_craton_features.shp (with columns sub_len, and sub_len_m)
 
-Step 4:
+# Step 4:
 Notebook: Generating_Random_Points.ipynp
   Function to generate random points uniformly within a polygon
   Input: Buffer185km.shp
   Output: random_points_with_ages.shp
 
-Step 5:
+# Step 5:
 "We apply Step 1, Step 2, and Step 3 to the random points in order to extract the same features, replacing 'Deposit_Point.shp' with 'random_points_with_ages.shp'."
 
-Step 6: Merge the attribute columns of Deposit_Point.shp and random_points_with_ages.shp to enable comparison between deposit and random points.
+# Step 6: Merge the attribute columns of Deposit_Point.shp and random_points_with_ages.shp to enable comparison between deposit and random points.
 Output: deposits_VS_random.csv
 
-Step 7: 
+# Step 7: 
 Notebook: Plots.ipynb
 
   Input: deposits_VS_random.csv

@@ -9,9 +9,9 @@ Notebook_1: 01_CalculateSpatialRelationships.ipynp
   Calculate Spatial Relationships 
   
   Split polylines into segments based on azimuth changes.
-  It also calculates other spatial values between two lines (e.g., rift datasets and craton boundaries or points), but these are not used at this stage in this project.
-  Inputs: Craton_Line.shp, Deposit_Point.shp
-  Outputs: merged_segmented_craton.shp (line 2), and Deposits_SpatialRelationships.shp
+  It also calculates other spatial values between two lines (e.g., rift datasets and craton boundaries or points), but these are not used at this stage in this project.  
+  Inputs: Craton_Line.shp, Deposit_Point.shp  
+  Outputs: merged_segmented_craton.shp (line 2), and Deposits_SpatialRelationships.shp  
 
 # Step 2:
 Notebook_2: 02_Segmented_Craton_v3.ipynp

@@ -62,7 +62,11 @@ Notebook: Plots.ipynb
     Cumulative Distribution Functions (CDFs)
     Violin box plots
 
+# Step Creating Movie:  
+Movie from 1800 Ma to the present with 1 Ma year interval  
 
+Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Craton_Line.shp, Deposit_Point.shp 
+Outputs: 1800 png files, Movie.mp4
 
 
 

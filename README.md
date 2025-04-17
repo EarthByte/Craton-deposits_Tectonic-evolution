@@ -6,7 +6,7 @@ How Subduction Evolution and Tectonic Stability Drive Sediment-Hosted Mineraliza
 # Step 1:
 Notebook_1: 01_CalculateSpatialRelationships.ipynp
 
-  ** Calculate Spatial Relationships **  
+  Calculate Spatial Relationships 
   
   Split polylines into segments based on azimuth changes.
   It also calculates other spatial values between two lines (e.g., rift datasets and craton boundaries or points), but these are not used at this stage in this project.

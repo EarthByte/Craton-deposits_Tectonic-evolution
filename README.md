@@ -63,6 +63,8 @@ Notebook: Plots.ipynb
     Violin box plots
 
 # Step Creating Movie:  
+
+Notebook: Creating_Movie.ipynb
 Movie from 1800 Ma to the present with 1 Ma year interval  
 
 Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Craton_Line.shp, Deposit_Point.shp 

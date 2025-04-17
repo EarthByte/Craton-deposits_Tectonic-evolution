@@ -3,9 +3,6 @@ How Subduction Evolution and Tectonic Stability Drive Sediment-Hosted Mineraliza
 
 [![DOI](https://zenodo.org/badge/947658549.svg)](https://doi.org/10.5281/zenodo.15015718)
 
-
-[![Watch Movie S1](https://github.com/EarthByte/Craton-deposits_Tectonic-evolution/raw/main/Supplementary_Materials/Movie_S1_preview.jpg)](https://github.com/EarthByte/Craton-deposits_Tectonic-evolution/raw/main/Supplementary_Materials/Movie_S1.mp4)
-
 ![Sample Layouts](https://github.com/EarthByte/Craton-deposits_Tectonic-evolution/raw/main/Sample_Layouts.JPG)
 
 # Step 1:

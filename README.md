@@ -25,7 +25,7 @@ Notebook_2: 02_Segmented_Craton_v3.ipynp
   The third section focuses on extracting the gradient of features from g (10 here) to zero million years before the formation of deposits.
   The diagrams represent two key aspects: the first shows the number of deposits, while the second illustrates the weighted distribution based on total metal content.  
 
-  Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Deposits_SpatialRelationships.shp, merged_segmented_craton.shp
+  Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Deposits_SpatialRelationships.shp, merged_segmented_craton.shp  
   Outputs: segmented_craton_features.shp
 
 # Step 3:
@@ -33,14 +33,14 @@ Notebook_3: 03_Subduction_Segment_Length.ipynb
 
   Calculating Length of Subduction Segments.  
   
-  Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Deposits_SpatialRelationships.shp, merged_segmented_craton.shp
+  Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Deposits_SpatialRelationships.shp, merged_segmented_craton.shp  
   Outputs: segmented_craton_features.shp (with columns sub_len, and sub_len_m)
 
 # Step 4:
 Notebook: Generating_Random_Points.ipynp
   Function to generate random points uniformly within a polygon.  
   
-  Input: Buffer185km.shp
+  Input: Buffer185km.shp  
   Output: random_points_with_ages.shp
 
 # Step 5:

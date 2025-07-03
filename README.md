@@ -14,7 +14,7 @@ Notebook_1: 01_CalculateSpatialRelationships.ipynp
   It also calculates other spatial values between two lines (e.g., rift datasets and craton boundaries or points), but these are not used at this stage in this project.  
   
   Inputs: Craton_Line.shp, Deposit_Point.shp  
-  Outputs: merged_segmented_craton.shp (line 2), and Deposits_SpatialRelationships.shp  
+  Outputs: merged_segmented_craton.shp (line 2), and Deposits_with_craton_parameters.shp  
 
 # Step 2:
 Notebook_2: 02_Segmented_Craton_v3.ipynp
@@ -27,7 +27,7 @@ Notebook_2: 02_Segmented_Craton_v3.ipynp
   The third section focuses on extracting the gradient of features from g (10 here) to zero million years before the formation of deposits.
   The diagrams represent two key aspects: the first shows the number of deposits, while the second illustrates the weighted distribution based on total metal content.  
 
-  Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Deposits_SpatialRelationships.shp, merged_segmented_craton.shp  
+  Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Deposits_with_craton_parameters.shp, merged_segmented_craton.shp  
   Outputs: segmented_craton_features.shp
 
 # Step 3:

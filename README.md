@@ -3,7 +3,7 @@ How Subduction Evolution Drives Sediment-Hosted Mineralization Along Craton Edge
 
 [![DOI](https://zenodo.org/badge/947658549.svg)](https://doi.org/10.5281/zenodo.15015718)
 
-![Sample Layouts](https://github.com/EarthByte/Craton-deposits_Tectonic-evolution/raw/main/Sample_Layouts.JPG)
+![Sample Layouts](https://github.com/EarthByte/Craton-deposits_Tectonic-evolution/raw/main/Sample Layouts.JPG)
 
 # Step 1:
 Notebook_1: 01_CalculateSpatialRelationships.ipynp

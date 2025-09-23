@@ -72,6 +72,7 @@ Inputs: 1.8Ga_model_optimised_mantle_ref_frame, Craton_Line.shp, Deposit_Point.s
 Outputs: 1800 png files, Movie.mp4
 
 [🎬 Watch Movie S1](https://github.com/EarthByte/Craton-deposits_Tectonic-evolution/raw/main/Supplementary_Materials/Movie_S1.mp4)
+[🎬 Watch Movie S2](https://github.com/EarthByte/Craton-deposits_Tectonic-evolution/raw/main/Supplementary_Materials/Movie_S2.mp4)
 
 
 
